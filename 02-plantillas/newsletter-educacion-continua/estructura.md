@@ -1,19 +1,33 @@
-# Newsletter Educación Continua
+# Mailing de Promoción — Educación Continua
 
 ## Configuración
 
-- Frecuencia: Mensual
-- Audiencia: Público externo (profesionales, empresas, egresados)
-- Canal: Email
-- Formato: HTML
-- Objetivo: Generar inscripciones y captar leads
+- **Tipo:** Mailing de promoción (no newsletter)
+- **Frecuencia:** Disparado por campaña (preventa, cierre de inscripciones, lanzamiento)
+- **Audiencia:** Público externo (profesionales, empresas, egresados)
+- **Canal:** Email
+- **Formato:** HTML
+- **Objetivo:** Convertir lectores en inscritos (generar ingresos)
+
+---
+
+## Diferencia clave: Newsletter vs. Mailing
+
+| | Newsletter (CEPA / Facultad) | Mailing de Promoción (Educación Continua) |
+|---|---|---|
+| **Objetivo** | Informar, vincular, comunidad | Vender, inscribir, convertir |
+| **Tono** | Institucional, cercano | Comercial, persuasivo, urgente |
+| **Contenido** | Múltiples temas | Focalizado en 1-2 productos |
+| **CTA** | "Conoce más", "Participa" | "Inscríbete ahora", "Asegura tu cupo" |
+| **Frecuencia** | Bimensual, calendario fijo | Por campaña: preventa, cierre, lanzamiento |
+| **Relación** | Construye audiencia a largo plazo | Genera ingreso a corto plazo |
 
 ---
 
 ## Niveles del sistema
 
 1. **Arquitectura editorial** (este archivo) → ¿Qué contiene?
-2. **Contenido** → ¿Qué vamos a decir este mes?
+2. **Contenido** → ¿Qué vamos a vender este mes?
 3. **Diseño** → ¿Cómo se verá?
 4. **HTML** → ¿Cómo se implementa para email?
 5. **Publicación** → ¿Cómo lo revisamos y enviamos?
@@ -26,12 +40,12 @@
 - Logo Universidad de Talca
 - Logo CEPA
 - Slogan: Inspira. Innova. Impacta.
-- Título del newsletter
+- Título del mailing
 
-### 02. Intro / Apertura
-- Hook emocional (1-2 líneas)
-- Propuesta de valor del mes
-- Conexión con la oferta formativa
+### 02. Intro / Apertura comercial
+- Hook emocional (dolor o desafío del público objetivo)
+- Propuesta de valor clara: ¿qué gana el lector?
+- Conexión directa con la oferta formativa
 
 ### 03. Footer
 - Sitio web: www.cepa.utalca.cl
@@ -43,9 +57,9 @@
 
 ---
 
-## BLOQUES MODULARES (activar según estrategia del mes)
+## PIEZAS PROMOCIONALES (activar según campaña)
 
-### Bloque: Programa Destacado
+### Pieza: Programa Destacado (Hero)
 
 TIPO: [Curso | Diplomado | Microcertificación | Jornada | Seminario]
 MODALIDAD: [Presencial | Online sincrónico | Híbrido]
@@ -55,7 +69,7 @@ ETIQUETA: Ej. "JORNADA PRESENCIAL VIVENCIAL | CUPOS LIMITADOS"
 
 TÍTULO: Nombre del programa
 
-DESCRIPCIÓN: Texto persuasivo orientado al beneficio
+DESCRIPCIÓN: Texto persuasivo orientado al **beneficio** (no solo al contenido). ¿Qué problema resuelve? ¿Qué habilidad entrega?
 
 IMAGEN: Afiche del programa
 
@@ -77,7 +91,17 @@ CTA:
 
 ---
 
-### Bloque: Recurso Gratuito (Lead Magnet)
+### Pieza: Segundo Programa (opcional)
+
+Usar solo si hay 2 cursos con la misma urgencia comercial.
+
+Misma estructura que Programa Destacado, pero con menor jerarquía visual.
+
+---
+
+### Pieza: Recurso Gratuito (Lead Magnet)
+
+&gt; **Usar solo en fase de captación de leads.** No en cierre de inscripciones.
 
 TÍTULO: Ej. "Guía de Reintegro Laboral"
 
@@ -91,7 +115,35 @@ CTA:
 
 ---
 
-### Bloque: Encuesta / Participación
+### Pieza: Urgencia / Escasez
+
+&gt; **Usar en cierre de inscripciones o últimos cupos.**
+
+TEXTO: Ej. "Quedan 48 horas" / "Últimos 5 cupos" / "Preventa termina el 10"
+
+ELEMENTO VISUAL: Contador, banner de color, o texto destacado
+
+CTA:
+- Texto: [Asegura tu cupo antes de que cierre →]
+- URL: [link]
+
+---
+
+### Pieza: Testimonio / Prueba Social
+
+&gt; **Usar en lanzamientos o cursos nuevos para reducir resistencia.**
+
+CITA: Texto del testimonio
+
+AUTOR: Nombre, cargo, empresa
+
+FOTO: (opcional)
+
+---
+
+### Pieza: Encuesta / Participación
+
+&gt; **Usar cuando no hay urgencia de venta o se planifica siguiente semestre.**
 
 TÍTULO: Ej. "¿Qué temáticas necesitas para tu desarrollo?"
 
@@ -105,53 +157,35 @@ NOTA LEGAL: "Dentro del formulario podrás solicitar seguir recibiendo informaci
 
 ---
 
-### Bloque: Testimonio / Prueba Social
+## Matriz de decisión: ¿Qué piezas usar?
 
-CITA: Texto del testimonio
-
-AUTOR: Nombre, cargo, empresa
-
-FOTO: (opcional)
-
----
-
-### Bloque: Oferta Especial
-
-TÍTULO: Ej. "Descuento por inscripción temprana"
-
-DESCRIPCIÓN: Condiciones de la oferta
-
-VIGENCIA: Hasta cuándo aplica
-
-CTA:
-- Texto: [Aprovechar descuento →]
-- URL: [link]
+| Tipo de campaña | Piezas promocionales recomendadas |
+|-----------------|-----------------------------------|
+| **Preventa** | Intro + Programa Destacado (x1 o x2) + Testimonio |
+| **Cierre de inscripciones** | Intro + Programa Destacado (x1) + Urgencia/Escasez + Encuesta |
+| **Lanzamiento nuevo curso** | Intro + Programa Destacado + Testimonio + Recurso Gratuito |
+| **Parrilla mensual** | Intro + Programa Destacado (x2 o x3) + Recurso Gratuito |
+| **Posicionamiento (sin venta directa)** | Intro + Recurso Gratuito + Encuesta |
 
 ---
 
-## Matriz de decisión: ¿Qué bloques usar?
+## Reglas del mailing
 
-| Objetivo del mes | Secciones Estructurales | Bloques Modulares recomendados |
-|------------------|------------------------|-------------------------------|
-| Lanzamiento / Preventa | Header + Intro + Footer | Programa Destacado (x1 o x2) + Oferta Especial |
-| Parrilla mensual | Header + Intro + Footer | Programa Destacado (x3 o x4) + Recurso Gratuito |
-| Últimos días | Header + Intro + Footer | Programa Destacado (x1) + Encuesta |
-| Posicionamiento | Header + Intro + Footer | Recurso Gratuito + Encuesta + Testimonio |
-
----
-
-## Reglas
-
-- Máximo 2 CTAs principales por newsletter.
-- Máximo 4 bloques modulares por edición.
-- El Lead Magnet debe aparecer siempre que haya parrilla de cursos.
-- La encuesta aparece cuando no hay urgencia de venta o se planifica siguiente semestre.
-- 
----
-
-## 📝 Mensaje de commit
-Crea estructura para newsletter Educacion Continua con arquitectura modular
+- **1 CTA principal.** Nunca más de 2. La confusión mata la conversión.
+- **Máximo 3 piezas promocionales** por envío. Menos es más.
+- **Lead Magnet solo en fase de captación.** En cierre, no distraigas con descargas gratuitas.
+- **Urgencia real.** Si decís "últimos cupos", debe ser verdad. No inventar escasez.
+- **Precios siempre visibles.** El público externo necesita saber cuánto cuesta antes de clickear.
+- **Asunto del correo:** debe generar curiosidad o urgencia. Ej: "Quedan 48 hrs: Diplomado en Mindfulness" o "¿Tu equipo está agotado? Esto te interesa".
 
 ---
 
-**¿Lo creas?** Cuando termines, el siguiente paso será comparar `newsletter-cepa` vs `newsletter-educacion-continua` para identificar los **componentes comunes** (Header, Footer, botones, tipografía) y crear el archivo que unifique el sistema general. 🎯
+## Checklist antes de enviar
+
+- [ ] ¿Hay 1 solo objetivo comercial claro?
+- [ ] ¿El precio está visible?
+- [ ] ¿La fecha de cierre es correcta?
+- [ ] ¿El link de inscripción funciona?
+- [ ] ¿El asunto genera apertura?
+- [ ] ¿Se ve bien en celular?
+- [ ] ¿Hay link de desuscripción?
