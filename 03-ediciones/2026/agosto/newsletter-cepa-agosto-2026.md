@@ -3,7 +3,7 @@ tipo: Newsletter CEPA
 edicion: Agosto 2026
 fecha_envio: 2026-08-15
 estado: enviado
-responsable: [Tu nombre]
+responsable: [Gabriel]
 ---
 
 # Newsletter CEPA — Agosto 2026
